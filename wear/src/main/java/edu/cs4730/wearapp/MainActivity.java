@@ -31,6 +31,7 @@ public class MainActivity extends WearableActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        /*
         mTextView = (TextView) findViewById(R.id.text);
         mTextView.setText("   " + myRandom.nextInt(10) + " ");
         //get the imagebutton (checkmark) and set up the listener for a random number.
@@ -43,6 +44,8 @@ public class MainActivity extends WearableActivity {
 
             }
         });
+        
+         */
 
         // Enables Always-on
         setAmbientEnabled();
